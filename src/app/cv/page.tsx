@@ -61,7 +61,6 @@ export default function CvPage() {
             <p className="cv-org">{profile.education.institution}</p>
           </div>
           <ul>{profile.training.map((item) => <li key={item}>{item}</li>)}</ul>
-          <p className="cv-note">Training is listed separately and is not represented as professional certification.</p>
         </section>
         <section className="cv-section">
           <h2>Technical skills</h2>
